@@ -24,6 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+# for the domain ur hosting this on.
 ALLOWED_HOSTS = []
 
 
@@ -36,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'signups' ,
 )
 
 MIDDLEWARE_CLASSES = (
